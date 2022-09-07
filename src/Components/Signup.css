@@ -1,0 +1,111 @@
+.form-control{
+    margin-bottom: 1.5vw;
+    width: 30vw;
+    height: 2.5vw;
+    border: 2px solid #808080;
+    border-radius: 0.3em;
+    padding-left: 1.5vw;
+    margin-top: 0.5vw;
+    display: block;
+
+}
+
+
+
+
+label{
+    color: #808080;
+    font-size: 1.vw;
+}
+
+.signup-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-area{
+    width: 700px;
+    margin-left: 7vw;
+    margin-top: 0vw;
+}
+
+.signup-submit{
+    color: #fff;
+    background-color: #0F62FE;
+    height: 2.8vw;
+    width: 30vw;
+    border-color: #0F62FE;
+    font-size: large;
+    border: 2px solid #0f62fe;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.text-header-content{
+    display: flex;
+    
+}
+
+input:focus{
+    border: 2px solid #0F62FE;
+    outline: none;
+    background-color: #80808015;
+}
+
+.word-header{
+    color: #808080;
+    margin-right: 0.2vw;
+}
+
+.word-sign{
+    color: #0f62fe;
+    cursor: pointer;
+}
+
+h5{
+    color: #808080;
+}
+
+.small-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+.line-color{
+    color: #000000;
+    margin-top: 4vw;
+}
+
+
+
+
+
+
+.first-header{
+    color: #000000;
+}
+
+
+
+.side-header{
+    color: #fff;
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 16vw;
+}
+
+.side-text{
+    color: #fff;
+    margin-left: 18vw;
+}
+
+
+
+
+.side-content{
+    background:  linear-gradient(45deg, #000000, #0f63febd),
+    url(body-bac2.jpg) no-repeat;
+    height: 827px;
+    width: 800px;
+}

@@ -1,0 +1,39 @@
+.pix{
+    border-radius: 1.5em;
+    box-shadow: 4px 4px 7px gray,
+                -4px -4px 7px gray;
+    margin-left: 8.7vw;
+    height: 380px;
+    width: 600px;
+    margin-top: 3vw;
+    position: relative;
+
+
+}
+
+.side-bar{
+    margin-top: 0;
+}
+
+@media screen and (max-width: 980px){
+    .pix{
+        height: 300px;
+        width: 420px;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        margin-top: 2.5vw;
+        border-radius: 0.5em;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .side-bar{
+        display: none;
+    }
+}
+
+@media screen and  (max-width: 480px ){
+    .side-bar{
+        display: none;
+    }
+}

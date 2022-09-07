@@ -1,0 +1,162 @@
+.section-header{
+    text-align: center;
+    color: #000;
+    text-decoration: dotted;
+    padding-top: 2vw;
+    margin-bottom: 0;
+}
+
+
+
+.quality-box{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding-bottom: 4vw;
+}
+
+.icons{
+    width: 70px;
+    height: 70px;
+    margin-left: 6vw;
+}
+
+
+.first{
+    margin-right: 4vw;
+    color: #042a70;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 8px;
+    width: 100vw;
+    border: 2px solid #fff;
+    background-color: #fff;
+    height: 35vh;
+    border-radius: 1.5em;
+    box-shadow: 2px 3px 9px  #8080803d,
+               -2px -3px 9px #8080803d;
+}
+
+.logo{
+    margin-bottom: 1vw;
+    color: #000000;
+}
+
+.text-area{
+    color: #000000;
+   
+}
+
+
+
+.second{
+    margin-right: 4vw;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 8px;
+    width: 100vw;
+    border: 2px solid #fff;
+    background-color: #fff;
+    height: 35vh;
+    border-radius: 1.5em;
+    box-shadow: 2px 3px 9px #8080803d,
+               -2px -3px 9px #8080803d;
+}
+
+
+
+
+.third{
+    margin-right: 4vw;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 8px;
+    width: 100vw;
+    border: 2px solid #fff;
+    background-color: #fff;
+    height: 35vh;
+    border-radius: 1.5em;
+    box-shadow: 2px 3px 9px #8080803d,
+               -2px -3px 9px #8080803d;
+}
+
+.fourth{
+    margin-right: 4vw;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 8px;
+    width: 100vw;
+    border: 2px solid #fff;
+    background-color: #fff;
+    height: 35vh;
+    border-radius: 1.5em;
+    box-shadow: 2px 3px 9px #8080803d,
+               -2px -3px 9px #8080803d;
+}
+
+
+@media screen and (max-width: 980px){
+    .section-header{
+        font-size: 4vw; 
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .section-header{
+        font-size: 5vw;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .section-header{
+        font-size: 6vw;
+    }
+
+    .quality-box{
+        display: block;
+        padding-left: 4vw;
+    }
+
+    .box{
+        margin-bottom: 5vw;
+    }
+
+    .icons{
+        margin-left: 30vw;
+    }
+
+    .first{
+        width:85vw;
+        margin-right: 0;
+        margin-bottom: 7vw;
+        margin-left: 4vw;
+    
+    }
+    .second{
+        width: 85vw;
+        margin-right: 0;
+        margin-bottom: 7vw;
+        margin-left: 4vw;
+
+    }
+
+    .third{
+        width: 85vw;
+        margin-right: 0;
+        margin-bottom: 7vw;
+        margin-left: 4vw;
+
+    }
+
+    .fourth{
+        width: 85vw;
+        margin-right: 0;
+        margin-left: 4vw;
+
+    }
+}

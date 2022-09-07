@@ -1,0 +1,40 @@
+.mySwiper{
+    text-align: center;
+    border: 2px solid #ffffff;
+    /*box-shadow: 2px 2px 4px #808080,
+               -2px -2px 4px #808080;*/
+    padding-bottom: 2vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-bottom: 3vw;
+    
+}
+
+.border{
+    border-radius: 50%;
+    padding-top: 10px;
+    margin-top: 8px;
+}
+
+
+.slider-style{
+    font-size: 1.3em;
+}
+
+.slider-footnote{
+    color: #808080;
+    text-align: center;
+}
+
+.testimonial-header{
+    color: #000;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 480px){
+    .mySwiper{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}

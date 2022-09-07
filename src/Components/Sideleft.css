@@ -1,0 +1,103 @@
+.header p{
+    color: #000000;
+    margin-top: 0;
+    font-size: 1.35rem;
+}
+
+.header{
+    margin-left: 7vw;
+    
+}
+
+.header h1{
+    margin-bottom: 1.2vw;
+    font-size: 3.5vw;
+
+}
+
+
+.btn-primary{
+    color: #fff;
+    background-color: #0F62FE;
+    height: 2.8vw;
+    width: 9vw;
+    border-color: #0F62FE;
+    border-radius: 1.5em;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.btn-primary:hover{
+    color: #0F62FE;
+    background-color: #fff;
+    font-size: large;
+    border-color: #0F62FE;
+    border: 2px solid #0F62FE;
+}
+
+
+@media screen and (max-width: 980px){
+.header h1{
+    font-size: 4.5vw;
+}
+
+.header p{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.header{
+    text-align: center;
+}
+
+.btn-primary{
+    width: 13vw;
+    height: 4vw;
+}
+}
+
+@media screen and (max-width: 767px){
+    .header h1{
+        font-size: 8vw;
+    }
+
+    .header{
+        text-align: center;
+        margin-left: 14vw;
+    }
+
+    .header p{
+        font-size: 1.25rem;
+    }
+
+    .btn-primary{
+        width: 17vw;
+        height: 6vw;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .header h1{
+        font-size: 10vw;
+       }
+
+       .header{
+           text-align: center;
+           margin-left: 0vw;
+       }
+
+       .header p{
+           font-size: 1.2rem;
+       }
+
+       .btn-primary{
+           width: 27vw;
+           height: 9vw;
+       }
+       
+    
+
+}
+

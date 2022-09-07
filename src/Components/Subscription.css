@@ -1,0 +1,110 @@
+.box-one{
+    background: linear-gradient(45deg, #042a70, #000000);
+    border: 2px solid #042a70;
+    color: #fff;
+    border-radius: 1.5em;
+}
+
+.box-one-change{
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #042a70;
+}
+
+.payment-header{
+    text-align: center;
+    margin-bottom: 3vw;
+    font-size: 3vw;
+
+}
+
+.payment-header-top{
+    color: #000;
+    text-align: center;
+}
+
+.btn-secondary{
+    color: #fff;
+    background-color: #0F62FE;
+    height: 2.8vw;
+    width: 9vw;
+    border-color: #0F62FE;
+    border-radius: 1.5em;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    z-index: 9999;
+    margin-left: 7vw;
+    margin-bottom:4vw;
+    margin-top: 2vw;
+}
+
+.word-content{
+    text-align: center;
+    font-size: 1.3em;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 1vw;
+}
+
+.price{
+    text-align: center;
+    margin-bottom: 2vw;
+    font-size: 3vw;
+    margin-top: 2vw;
+}
+
+.payment-info{
+    color: #808080;
+    text-align: center;
+}
+
+.box-two{
+    background: linear-gradient(45deg, #042a70, #000000);
+    border: 2px solid #042a70;
+    color: #fff;
+    border-radius: 1.5em;
+}
+
+.box-three{
+    background: linear-gradient(45deg, #042a70, #000000);
+    border: 2px solid #042a70;
+    color: #fff;
+    border-radius: 1.5em;
+}
+
+.payment-boxes{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-bottom: 8vw;
+    margin-top: 3vw;
+}
+
+.subscription-header{
+    margin-top: 12vw;
+}
+
+@media screen and (max-width: 480px){
+    .payment-boxes{
+        display: block;
+    }
+
+    .price{
+        font-size: 7vw;
+    }
+
+    .btn-secondary{
+        height: 10vw;
+        width: 30vw;
+        margin-left: 30vw;
+    }
+    .box-one{
+        margin-bottom: 4vw;
+    }
+
+    .box-two{
+        margin-bottom: 4vw;
+    }
+}
