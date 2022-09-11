@@ -4,6 +4,15 @@
     text-decoration: dotted;
     padding-top: 2vw;
     margin-bottom: 0;
+
+}
+
+.hire-container{
+    background-color: #fff;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -43,7 +52,7 @@
 }
 
 .text-area{
-    color: #000000;
+    color: #010610;
    
 }
 
@@ -114,7 +123,7 @@
 
 @media screen and (max-width: 480px){
     .section-header{
-        font-size: 6vw;
+        font-size: 8vw;
     }
 
     .quality-box{
@@ -133,23 +142,26 @@
     .first{
         width:85vw;
         margin-right: 0;
-        margin-bottom: 7vw;
         margin-left: 4vw;
+        height: 40vh;
+        box-shadow: none;
     
     }
     .second{
         width: 85vw;
         margin-right: 0;
-        margin-bottom: 7vw;
         margin-left: 4vw;
+        height: 40vh;
+        box-shadow: none;
 
     }
 
     .third{
         width: 85vw;
         margin-right: 0;
-        margin-bottom: 7vw;
         margin-left: 4vw;
+        height: 40vh;
+        box-shadow: none;
 
     }
 
@@ -157,6 +169,16 @@
         width: 85vw;
         margin-right: 0;
         margin-left: 4vw;
+        height: 40vh;
+        box-shadow: none;
 
     }
+
+    .slider-footnote{
+        font-size: 4vw;
+        margin: 2vw;
+    }
+
+    
+    
 }

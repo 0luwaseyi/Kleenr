@@ -6,6 +6,7 @@
 .header-content{
     margin-bottom: 1vw;
     margin-top: 5vw;
+    display: none;
 }
 
 .header-content h1{

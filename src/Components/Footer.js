@@ -13,7 +13,7 @@ function Footer(){
         <div data-aos = "fade-up" data-aos-duration = "1300" className ="footer-content">
             <div className='all-content'>
             <div className='logo-content'>
-                <h1 className='footer-title'>Kliener</h1>
+                <h1 className='footer-title'>Kleenr</h1>
             </div>
 
             <div className='footer-wrapper'>
@@ -36,7 +36,7 @@ function Footer(){
             </div>
 
             <div className='footer-note'>
-            <h3>About kliener </h3>
+            <h3>About kleenr </h3>
             <p><strong>Careers</strong></p>
             <p>News</p>
             <p>Brand</p>

@@ -88,7 +88,7 @@
     }
     
    .nav-menu.active{
-       background: #000000b8;
+       background: rgb(1, 1, 44);
        margin-top: 0;
        left: 0;
        opacity: 1;
@@ -96,10 +96,9 @@
        z-index: 9999;
        padding-bottom: 13px;
        padding-top: 0;
-       border-top-right-radius: 1em;
-       border-bottom-right-radius: 1em;
        height: 60vw;
        width: 40vw;
+       padding-left: 40vw;
 
    }
 
@@ -167,8 +166,10 @@
     }
 
     .nav-menu.active{
-        height: 70vw;
-        width: 50vw;
+        height: 100vw;
+        width: 100vw;
+        position: absolute;
+        top: 0;
     }
 
 

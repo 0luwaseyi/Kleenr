@@ -93,4 +93,17 @@
     .logo-content{
         margin-top: 2vw;
     }
+
+    .footer-title{
+        padding-top: 6px;
+    }
+
+    .policy-content{
+        margin-left: 8vw;
+    }
+    .social-media{
+        justify-content: center;
+        padding-bottom: 6px;
+        padding-top: 6px;
+    }
 }

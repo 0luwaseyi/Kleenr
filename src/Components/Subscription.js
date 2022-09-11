@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, {useEffect} from 'react'
 import './Subscription.css'
 import AOS from "aos"
 import "aos/dist/aos.css"
@@ -11,11 +11,7 @@ function Subscription(){
         AOS.refresh();
     })
 
-    const [background, setBackground] = useState(true)
-
-    const colorChange = ()=>{
-        setBackground(false)
-    }
+    
 
 
     return(
@@ -27,7 +23,7 @@ function Subscription(){
 
            <div className='payment-boxes'>
                <div className='grow'>
-               <div data-aos = "fade-right" data-aos-duration = "1000" className={background? 'box-one' : 'box-one-change'} onClick={colorChange}>
+               <div data-aos = "zoom-in" data-aos-duration = "1500" className='box-one'>
                    <h1 className='payment-header'>Basic</h1>
                    <hr/>
                    <div className='price'>$42.5</div>
@@ -39,7 +35,7 @@ function Subscription(){
                </div>
 
             <div className='grow'>
-            <div data-aos ="fade-up" data-aos-duration = "1500" className ="box-two">
+            <div data-aos ="zoom-in" data-aos-duration = "1500" className ="box-two">
                 <h1 className='payment-header'>Premium</h1>
                 <hr/>
                    <div className='price'>$65.3</div>
@@ -53,7 +49,7 @@ function Subscription(){
             </div>
                
             <div className='grow'>
-            <div data-aos ="fade-right" data- aos-duration = "1200" className='box-three'>
+            <div data-aos ="zoom-in" data- aos-duration = "1500" className='box-three'>
                 <h1 className='payment-header'>Advanced</h1>
                 <hr/>
                    <div className='price'>$98.7</div>

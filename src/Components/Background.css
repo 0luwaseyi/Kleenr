@@ -1,21 +1,22 @@
-.text-content{
-    background: linear-gradient(rgba(0, 0, 0, 0.905), rgba(0, 0, 0, 0.905)), 
-    url(ashwini.jpg) no-repeat;
-    background-size: cover;
-    height: 27vw;
-    margin-bottom: 2vw;
-    color: #fff;
-    width: 30vw;
-    padding-top: 8vw;
-    font-size: 1.8em;
-    text-align: center;
-    margin-right: 0;
-    text-shadow: 2px 2px 3px #808080;
 
-}
 
 .text-content h2{
     padding-bottom: 7vw;
+}
+
+
+.btn-learn{
+    color: #fff;
+    background-color: rgb(119, 2, 21);
+    height: 3.3vw;
+    width: 10vw;
+    border-top-right-radius: 1.5em;
+    border-bottom-left-radius: 1.5em;
+    font-size: large;
+    border: 2px solid rgb(119, 2, 21);
+    cursor: pointer;
+    z-index: 9999;
+    margin-left: 0;
 }
 
 
@@ -25,7 +26,7 @@
 
 .background-content{
     display: flex;
-    margin-top: 4vw;
+    margin-top: 2vw;
 }
 
 .background-content p{
@@ -42,33 +43,35 @@
 }
 
 .left-content h1{
-    color: rgb(68, 68, 68);
+    color: #000;
     font-size: 5em;
     font-weight: 600;
     text-indent: 48px;
 }
 
 .left-content p{
-    color: black;
+    color: #000;
     font-size: 1.3vw;
     padding-top: 0;
     margin-right: 2vw;
-    text-align: left;
     margin-top: 0;
 }
 
 @media screen and (max-width:480px){
     .background-content{
         display: block;
+        margin-left: 3vw;
     }
 
     .left-content h1{
-        font-size: 3em;
+        font-size: 2.2em;
+        text-indent: 0px;
     }
 
     .left-content p{
-        font-size: 5vw;
-        text-align: center;
+        font-size: 3.9vw;
+        text-align: left;
+        font-family:Arial, Helvetica, sans-serif;
     }
 
     .text-content{
@@ -76,5 +79,13 @@
         width: 80vw;
         margin-left: 8.5vw;
         justify-content: center;
+    }
+
+    .btn-learn{
+        height: 6.3vh;
+        width: 38vw;
+    }
+    br{
+        display: none;
     }
 }
