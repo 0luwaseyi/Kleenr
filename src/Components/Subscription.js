@@ -49,7 +49,7 @@ function Subscription(){
             </div>
                
             <div className='grow'>
-            <div data-aos ="zoom-in" data- aos-duration = "1500" className='box-three'>
+            <div data-aos ="zoom-in" data- aos-duration = "2200" className='box-three'>
                 <h1 className='payment-header'>Advanced</h1>
                 <hr/>
                    <div className='price'>$98.7</div>

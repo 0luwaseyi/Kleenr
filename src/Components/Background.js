@@ -14,7 +14,7 @@ function Background(){
     return(
         <div className='background-content'>
             <div data-aos = "fade-up" data-aos-duration = "1500" className='left-content'>
-               <h1>Fast, Reliable <br /> and Efficient</h1>
+               <h1>Fast, Reliable <br />& Efficient</h1>
                <p>At Kleenr, we are committed to giving you the best services<br /> you can think of
                    our charges are consciously tailored to suit your pocket<br /> as we have different plans 
                 for categories of customers.<br/> This is outlined in detail below.

@@ -77,6 +77,12 @@
 
 }
 
+@media screen and (max-width: 767px){
+    .all-content{
+        display: block;
+    }
+}
+
 @media screen and (max-width: 480px){
     .all-content{
         display: block;

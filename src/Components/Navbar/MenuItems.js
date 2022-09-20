@@ -8,25 +8,25 @@
 
     {
         title: 'Profile',
-        url: '/kleenr/#/profile',
+        url: '/kleenr/profile',
         cName: 'nav-links'
     },
 
     {
         title: 'Login',
-        url: '/kleenr/#/login',
+        url: '/kleenr/login',
         cName: 'nav-links'
     },
 
     {
         title: 'FAQs',
-        url: '/kleenr/#/faqs',
+        url: '/kleenr/faqs',
         cName: 'nav-links'
     },
 
     {
         title: 'Vacancies',
-        url: '/kleenr/#/vacancies',
+        url: '/kleenr/vacancies',
         cName: 'nav-links'
     }
 

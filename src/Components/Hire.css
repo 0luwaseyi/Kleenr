@@ -24,6 +24,14 @@ h2{
     padding-bottom: 4vw;
 }
 
+.first-group{
+    display: block;
+}
+
+.second-group{
+    display: block;
+}
+
 .icons{
     width: 70px;
     height: 70px;
@@ -118,6 +126,47 @@ h2{
     .section-header{
         font-size: 5vw;
     }
+
+    .quality-box{
+        display:block;
+    }
+
+    .first{
+        width: 50vw;
+        box-shadow: none;
+        margin-left: 0vw;
+    }
+
+    .second{
+        width: 50vw;
+        box-shadow: none;
+        margin-right: 10vw;
+    }
+
+    .third{
+        width: 50vw;
+        box-shadow: none;
+        margin-left: 0vw;
+    }
+
+    .fourth{
+        width: 50vw;
+        box-shadow: none;
+        margin-right: 10vw;
+    }
+
+    .icons{
+        margin-left: 15vw;
+    }
+
+    /*.first-group{
+        display: flex;
+        margin-bottom: 6vw;
+    }
+
+    .second-group{
+        display: flex;
+    }*/
 }
 
 
@@ -172,6 +221,14 @@ h2{
         height: 40vh;
         box-shadow: none;
 
+    }
+
+    .first-group{
+        display: block;
+    }
+
+    .second-group{
+        display: block;
     }
 
     .slider-footnote{

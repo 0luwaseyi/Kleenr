@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Menuitems } from './MenuItems'
 import './Navbar.css'
-import './css/fontawesome.css'
+import './css/fontawesome.min.css'
 
 
 
@@ -13,7 +13,8 @@ class Navbar extends Component {
         super()
         this.state = {
             clicked: false,
-            signup: false
+            signup: false,
+            cancel: false
         }
     }
 
@@ -32,12 +33,7 @@ class Navbar extends Component {
         })
     }
 
-    removeSignup = () =>{
-        this.setState({
-            signup: false
-        })
-
-    }
+  
     render() {
         return (
          <div>
@@ -48,7 +44,8 @@ class Navbar extends Component {
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}> </i>
                 </div>
-                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'} >
+                
 
                     {Menuitems.map((item, index) => {
                         return (
@@ -56,6 +53,7 @@ class Navbar extends Component {
                                 {item.title}</a></li>
                         )
                     })}
+                    
 
                     <div>
                        {/* <button className='nav-links-mobile' onClick = {this.clickSignup}>Sign up</button>*/}
@@ -63,7 +61,8 @@ class Navbar extends Component {
                     
 
                         
-
+                     
+        
                     </div>
 
                 </ul>

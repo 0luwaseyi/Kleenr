@@ -17,9 +17,6 @@
 .payment-header-top{
     color: #000;
     text-align: center;
-    text-decoration: underline 4px;
-    text-decoration-color:  rgb(119, 2, 21);
-    text-decoration-thickness: 4px;
    
 }
 
@@ -92,6 +89,46 @@
     .payment-boxes{
         display: block;
     }
+
+    .box-one{
+        height: 40vh;
+        width: 60vw;
+        margin-left: 15vw;
+        margin-bottom: 3vw;
+    }
+
+    .box-two{
+        height: 40vh;
+        width: 60vw;
+        margin-left: 15vw;
+        margin-bottom: 3vw;
+    }
+
+    .box-three{
+        height: 40vh;
+        width: 60vw;
+        margin-left: 15vw;
+    }
+
+    .payment-info{
+        margin: 6vw;
+    }
+
+    .price{
+        font-size: 5vw;
+    }
+
+    .btn-secondary{
+        height: 6vw;
+        width: 26vw;
+        margin-left:16vw ;
+
+    }
+
+    .payment-header{
+        font-size: 6vw;
+        padding-top: 2vw;
+    }
 }
 
 @media screen and (max-width: 480px){
@@ -108,20 +145,21 @@
     }
 
     .price{
-        font-size: 7vw;
+        font-size: 9vw;
+        margin: 6vw;
     }
 
     .btn-secondary{
         height: 10vw;
         width: 34vw;
-        margin-left: 18vw;
+        margin-left: 23vw;
     }
     .box-one{
         margin-bottom: 4vw;
         border: none;
-        height: 38vh;
-        width: 70vw;
-        margin-left: 10vw;
+        height: 40vh;
+        width: 80vw;
+        margin-left: 7vw;
 
         border-radius: 1.1em;
         box-shadow: 2px 2px 3px#808080,
@@ -131,10 +169,10 @@
     .box-two{
         margin-bottom: 4vw;
         border: none;
-        height: 38vh;
+        height: 40vh;
         border-radius: 1.1em;
-        width: 70vw;
-        margin-left: 10vw;
+        width: 80vw;
+        margin-left: 7vw;
     }
 
     .payment-info{
@@ -147,10 +185,10 @@
 
     .box-three{
         border: none;
-        height: 38vh;
+        height: 40vh;
         border-radius: 1.1em;
-        width: 70vw;
-        margin-left: 10vw;
+        width: 80vw;
+        margin-left: 7vw;
     }
     
     

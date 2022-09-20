@@ -31,6 +31,22 @@
     text-align: center;
 }
 
+@media screen and (max-width: 767px){
+    .mySwiper{
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    .slider-footnote{
+        margin: 5vw;
+    }
+
+    img{
+        height: 120px;
+        width: 120px;
+    }
+}
+
 
 @media screen and (max-width: 480px){
     .mySwiper{
@@ -43,7 +59,7 @@
     }
 
     .slider-content{
-        margin-top: 150vw;
+        margin-top: 180vw;
     }
 
     .slider-style{
@@ -69,6 +85,6 @@
 
 @media screen and (max-width: 385px){
     .slider-content{
-        margin-top: 180vw;
+        margin-top: 200vw;
     }
 }

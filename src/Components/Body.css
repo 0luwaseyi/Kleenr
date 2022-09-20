@@ -50,6 +50,32 @@
 }
 
 
+@media screen and (max-width: 767px){
+    .background{
+        height: 450px ;
+    }
+
+    .svg-content{
+        display: none;
+    }
+
+    .btn-primary{
+        height: 8vw;
+        width: 26vw;
+        margin-left: 35vw;
+
+    }
+
+    .body-header{
+        font-size: 7vw;
+    }
+
+    .background p{
+        font-size: 3vw;
+    }
+}
+
+
 
 
 
@@ -71,7 +97,7 @@
     .btn-primary{
         height: 12vw;
         width: 37vw;
-        margin-left: 34vw;
+        margin-left: 30vw;
     }
 
     .svg-content{
