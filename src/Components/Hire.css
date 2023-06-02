@@ -48,7 +48,7 @@ h2{
     width: 100vw;
     border: 2px solid #fff;
     background-color: #fff;
-    height: 35vh;
+    height: 50vh;
     border-radius: 1.5em;
     box-shadow: 2px 3px 9px  #8080803d,
                -2px -3px 9px #8080803d;
@@ -75,7 +75,7 @@ h2{
     width: 100vw;
     border: 2px solid #fff;
     background-color: #fff;
-    height: 35vh;
+    height: 50vh;
     border-radius: 1.5em;
     box-shadow: 2px 3px 9px #8080803d,
                -2px -3px 9px #8080803d;
@@ -93,7 +93,7 @@ h2{
     width: 100vw;
     border: 2px solid #fff;
     background-color: #fff;
-    height: 35vh;
+    height: 50vh;
     border-radius: 1.5em;
     box-shadow: 2px 3px 9px #8080803d,
                -2px -3px 9px #8080803d;
@@ -108,7 +108,7 @@ h2{
     width: 100vw;
     border: 2px solid #fff;
     background-color: #fff;
-    height: 35vh;
+    height: 50vh;
     border-radius: 1.5em;
     box-shadow: 2px 3px 9px #8080803d,
                -2px -3px 9px #8080803d;
@@ -119,6 +119,9 @@ h2{
     .section-header{
         font-size: 4vw; 
     }
+
+   
+
 }
 
 
