@@ -8,6 +8,9 @@
     box-shadow: 3px 3px 5px black,
                -3px -3px 5px black;
 
+    position: sticky;
+    top: 0;
+
 }
 
 
@@ -93,7 +96,7 @@
     }
     
    .nav-menu.active{
-       background: linear-gradient( rgb(119, 2, 21), rgba(1, 1, 44, 0.953));
+       background: rgba(1, 1, 44, 0.953);
        margin-top: 0;
        left: 0;
        opacity: 1;
@@ -114,6 +117,7 @@
        margin-bottom: 4vw;
        font-weight: 800;
        font-size: 3vw;
+       margin-top: -2vw;
        
     
    }
@@ -182,7 +186,6 @@
 
 
     .NavbarItems{
-        background-color: rgb(119, 2, 21);
         border-bottom-left-radius: 0em;
         border-bottom-right-radius: 0em;
     }
